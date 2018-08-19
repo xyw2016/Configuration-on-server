@@ -24,6 +24,7 @@ cd boost_*_*.tar.gz
 ./b2 install --prefix=/home/xyw/boost
 ```
 --prefix: 指定安装的文件夹
+
 5.添加环境变量
 ```
 export BOOST_ROOT="/home/xyw/boost/boost_1_68_0"
