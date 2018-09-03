@@ -14,7 +14,7 @@ usermod -G groups newname
 
 4.修改文件所属者和权限
 
-chown -R groups:newname filename
+chown -R newname:groups filename
 
 chmod 755 filename (所属者有所有的权限，而同组的人只有读的权限)
 
